@@ -25,7 +25,7 @@ function App() {
       {todos.length ? (
         <Todos todos={todos} deleteTodo={deleteTodo} />
       ) : (
-        <h2 className="heading2">No Todo Left enjoy your Time</h2>
+        <h2 className="heading2">Enjoy Your Day</h2>
       )}
     </>
   );
